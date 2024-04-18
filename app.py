@@ -43,9 +43,9 @@ def generate_response(user_input, model, tokenizer, label_encoder):
 
 # Load components
 
-model_path = "utils\\model\\finetuned_model.h5"
-tokenizer_path = "utils\\tokenizer\\tokenizer.pkl"
-lab_enc_path = "utils\\encoder\\label_encoder.pkl"
+model_path = "utils/model/finetuned_model.h5"
+tokenizer_path = "utils/okenizer/tokenizer.pkl"
+lab_enc_path = "utils/encoder/label_encoder.pkl"
 
 model, tokenizer, label_encoder = load_model_components(model_path, tokenizer_path, lab_enc_path)
 
