@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Dense, Embedding, GlobalAveragePooling1D
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-final_intents = 'data\\final_intents.json'
+final_intents = 'data/final_intents.json'
 with open(final_intents, 'r', encoding='utf-8') as f:
   data = json.load(f)
 
